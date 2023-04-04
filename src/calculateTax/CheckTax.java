@@ -1,5 +1,5 @@
 package calculateTax;
 
 public interface CheckTax {
-    double calculateCheckTax(double price);
+    double calculateCheckTax(double priceWithDiscount);
 }

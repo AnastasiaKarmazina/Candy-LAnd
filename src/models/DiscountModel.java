@@ -20,4 +20,7 @@ public class DiscountModel implements Discount, Price {
         }
         return calculateDiscount(price);
     }
+    public double calculatePriceWithDiscount(double price, double discount){
+        return price - discount;
+    }
 }

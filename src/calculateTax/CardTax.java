@@ -1,6 +1,6 @@
 package calculateTax;
 
 public interface CardTax {
-    double calculateCardTax(double price);
+    double calculateCardTax(double priceWithDiscount);
 
 }
