@@ -2,10 +2,7 @@ package models;
 
 import calculateTax.Tax;
 
-public class TaxModel extends DiscountModel implements Tax {
-    public TaxModel(double calculatePrice, double calculateDiscount, double calculatePriceWithDiscount){
-        super();
-    }
+public class TaxModel  implements Tax {
     @Override
     public double calculateTax(double priceWithDiscount){
         if(priceWithDiscount <= 5000){

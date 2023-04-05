@@ -2,11 +2,8 @@ package models;
 
 import calculateTax.CardTax;
 
-public class CardTaxModel extends DiscountModel implements CardTax {
+public class CardTaxModel  implements CardTax {
 
-    public CardTaxModel(double calculatePrice, double calculateDiscount, double calculatePriceWithDiscount){
-        super();
-    }
     @Override
     public double calculateCardTax(double priceWithDiscount){
         if(priceWithDiscount <= 5000){

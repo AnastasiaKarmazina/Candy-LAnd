@@ -14,7 +14,7 @@ public class CardTaxController {
         this.discountController = discountController;
         this.viewCardTax = viewCardTax;
     }
-    private void runApp(){
+    public void runApp(){
         double[] calcValues = {
                 calcCardTax(), calcTaxWithCardCost()
         };

@@ -15,7 +15,7 @@ public class CheckTaxController {
         this.discountController = discountController;
         this.viewCheckTax = viewCheckTax;
     }
-    private void runApp(){
+    public void runApp(){
         double[] calcValues = {
                 calcCheckTax(), calcCostWithCheckTax()
         };
